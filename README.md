@@ -13,6 +13,7 @@ import os
 import glob
 
 //**Use the Path where the files are stored.** 
+
 path=r"C:\Users\......XXXXXXXX......"
 
 files=glob.glob(path+"/*.docx*")
