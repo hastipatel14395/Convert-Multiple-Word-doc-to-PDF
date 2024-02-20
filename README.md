@@ -1,16 +1,18 @@
-# Convert-Multiple-Word-doc-to-PDF
-How do we Convert Multiple Word documents to PDFs at Once?
+//# Convert-Multiple-Word-doc-to-PDF
 
-**1st step is: Installation**
+**//How do we Convert Multiple Word documents to PDFs at Once?**
+
+//**1st step is: Installation**
 
 !pip install docx2pdf
 
-**Code:**
+//**Code:**
 
 from docx2pdf import convert
 import os
 import glob
 
+//**Use the Path where the files are stored.** 
 path=r"C:\Users\......XXXXXXXX......"
 
 files=glob.glob(path+"/*.docx*")
@@ -19,3 +21,6 @@ for f in files:
     convert(f)
     
 print("All files Converted")
+
+
+**Run this code.**
